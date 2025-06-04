@@ -8,7 +8,6 @@ function hello() {
     else state = "Good Evening";
     window.alert(`${state} ${name}`);
 }
-/* about me*/
 
 
 
