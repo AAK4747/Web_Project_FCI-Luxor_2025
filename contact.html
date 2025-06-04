@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar-contact">
+            <a href="aboutme.html" >About Me</a>
+            <a href="studies_hobbies.html" >My Studies & Hobbies</a>
+            <a href="favorites.html" >My Favorites</a>
+            <a href="index.html" >Home</a><!--<target="_blank">-->
+        </nav>
+        <center>
+            <div class="container">
+            <br/>
+            <nav class="header">
+                <center>
+                    <h1>Contact Me</h1>
+                </center>
+            </nav>
+            
+            <br/><hr class="borderc"/><br/>
+            <form class="contact">
+                <section class="name"><h3>Name</h3></section>
+                <input required type="text" name="Name" placeholder="Enter Your Name" class="input"/>
+                <br/>
+                <section class="email"><h3>E-Mail</h3></section>
+                <input required type="text" name ="email" placeholder="Enter Your E-mail" class="input"/>
+                <br/>
+                <section class="mh"><h3>Message Box</h3></section>
+                <textarea required name="message" placeholder="Enter Your Message" class="input-textarea"></textarea>
+                <br/>
+                <section class="purpose">
+                <h3>The purpose of Message is : </h3>
+                <select class="input-select">
+                    <option>General Inquiry</option>
+                    <option>Collaboration</option>
+                    <option>Feedback</option>
+                    <option selected>Other</option>
+                </select>
+                </section>
+                
+                <br/>
+                <input type="submit" class="submit">
+                </form>
+            </div>
+        </center>
+        
+    </body>
+</html>

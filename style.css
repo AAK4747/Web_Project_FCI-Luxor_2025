@@ -1,0 +1,798 @@
+/* ---------------- index ------------------- */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+    color: rgb(190, 224, 240);
+    line-height: 1.7;
+    padding: 40px;
+    height: fit-content;
+}
+
+.navbar {
+    width: 750px ;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(3, 84, 100) 100%);
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: rgb(190, 224, 240);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: rgb(105, 227, 248);
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(3, 84, 100) 100%);
+    padding: 22px;
+    border-radius: 11px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    font-size: 45px;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(73, 215, 247, 0.2);
+    margin: 15px 0;
+}
+
+.intro h2 {
+    height: fit-content;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+    padding: 12px 0px;
+    border-radius: 40px;
+    margin: -10px auto 7px auto;
+    font-size: 23px;
+    color: #020024;
+}
+
+.intro p {
+    border: 7px;
+    border-style: double;
+    border-color: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+    border-radius: 40px;
+    width: 900px;
+    line-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 21px;
+    padding: 0 7px;
+    padding-top: 5px;
+}
+.alert{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(3, 84, 100) 100%);
+    border-radius: 10px;
+    border:1px solid;
+    border-color: rgb(190, 224, 240);
+    margin: 10px auto auto auto;
+    font-size: 27px;
+    font-weight: bold;
+}
+.alert a{
+    color:rgb(190, 224, 240);
+    text-decoration: none;
+}
+.alert a:hover{
+    color:#020024;
+    font-weight: bold;
+}
+.alert:hover{
+    background-image: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);    color:rgb(190, 224, 240);
+    border:2px solid #020024;
+    border-radius: 10px;
+    transform: scale(1.07);
+
+}
+
+
+@media(max-width: 1025px) {
+    .navbar {
+        align-items: center;
+    }
+    .navbar a:hover {
+    color: rgb(105, 227, 248);
+}
+
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .intro p {
+        font-size: 14px;
+        border: 3px;
+        border-style: double;
+        border-color: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+        border-radius: 40px;
+        width: 60%;
+    }
+    .container h1{
+        font-size: 15px;
+        
+    }
+    .intro h2 {
+        margin: -70px auto 7px auto;
+    }
+    
+}
+/* ------------------- about me --------------------- */
+.header h1{
+    font-size: 45px;
+    text-shadow: #020024;
+    width: 500px;
+    border: 2px solid;
+    text-align: center;
+    border-radius: 11px;
+    margin-bottom: 20px;
+}
+.bordera{
+    border-color: rgba(188, 204, 251, 1);
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(73, 215, 247, 0.2);
+    margin: 10px 0;
+    margin-bottom: 30px;
+}
+
+.back-li li,
+.goals-li li,.why-li li {
+    margin: 15px 27px;
+    font-size: 18px;
+    text-align: justify;
+    justify-content: center;
+    line-height: 1.9;
+    list-style-type:circle;
+}
+
+.back h2{
+    width: 350px;
+    height: 70px;
+    padding-top: 7px;
+    margin:auto auto auto auto ;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+    border-radius: 15px;
+    font-size: 27px;
+    color: #020024;
+}
+.goals h2{
+    width: 350px;
+    height: 70px;
+    padding-top: 7px;
+    margin:auto auto auto auto ;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+    border-radius: 15px;
+    font-size: 27px;
+    color: #020024;
+}
+.why h2{
+    width: 550px;
+    height: 70px;
+    padding-top: 7px;
+    margin:auto auto auto auto ;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+    border-radius: 15px;
+    font-size: 27px;
+    color: #020024;
+}
+.navbar-about {
+    width: 750px ;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(3, 84, 100) 100%);
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-about a {
+    color: rgb(190, 224, 240);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-about a:hover {
+    color: rgb(105, 227, 248);
+}
+
+
+@media (max-width: 1023px) {
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+    .back,.goals,.why{
+        font-size: 10px;
+    }
+    .back-li li,
+.goals-li li,.why-li li {
+    margin: 17px 35px;
+    font-size: 9px;
+    text-align: justify;
+    justify-content: center;
+    line-height: 1.2;
+    list-style-type:circle;
+}
+.back h2{ 
+    margin-top: -25px;
+}
+    .navbar-about {
+        align-items: center;
+    }
+    .navbar-about a:hover {
+    color: rgb(105, 227, 248);
+}
+}
+/*--------------- studies ---------------- */
+
+.navbar-studies {
+    width: 750px ;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(3, 84, 100) 100%);
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-studies a {
+    color: rgb(190, 224, 240);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-studies a:hover {
+    color: rgb(105, 227, 248);
+}
+
+.borders{
+    border-color: rgba(188, 204, 251, 1);
+    margin-top: -45px;
+    margin-bottom: 25px;
+}
+
+.container4 {
+    max-width: 1100px;
+    max-height: 1250px;
+    margin-right: auto;
+    text-align: center;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(3, 84, 100) 100%);
+    padding: 22px;
+    border-radius: 11px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.container4 h1 {
+    font-size: 45px;
+    text-shadow: #020024;
+    width: 500px;
+    border: 2px solid;
+    text-align: center;
+    border-radius: 11px;
+    margin-bottom: 20px;
+}
+
+
+.container4 h2 span{
+    height: 70px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 27px;
+    color: #020024;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    border-radius: 15px;
+    box-shadow: #020024;
+}
+th,
+td {
+    border: 5px dashed #020024;
+    padding: 12px;
+    text-align: center;
+    border-radius: 0px;
+}
+
+thead {
+    background-image: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #020024;
+}
+
+tbody tr:hover {
+    background-image: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+    color: #020024;
+}
+.hobbies h2{
+    display: flex;
+    width: 300px;
+    height: 70px;
+    justify-content: center;
+    background-image: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+    border-radius: 7px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 27px;
+    padding-top: 6px;
+    color: #020024;
+}
+
+
+
+
+
+.new{
+    display: flex;
+    max-height: 550px;
+}
+.read{
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    margin-left: auto;
+    background-image: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+    color: #020024;
+    font-size: 25px;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+.play:hover ,.sports:hover ,.read:hover{
+    transform: scale(1.009);
+}
+
+.play{
+    flex-direction: row;
+    width: 300px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 500px;
+    background-image: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+    color: #020024;
+    font-size: 25px;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+.sports{
+    flex-direction: row;
+    width: 300px;
+    height: 450px;
+    margin-right: auto;
+    background-image: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+    color: #020024;
+    font-size: 25px;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+.read img{
+    width: 250px;
+    height: 150px;    
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.play img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.sports img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-bottom: 1px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.hobbies img:hover {
+    transform: scale(1.05);
+}
+.read img:hover,.play img:hover,.sports img:hover{
+    transform: scale(1.05);  
+}
+
+
+@media (max-width: 1025px) {
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        font-size: 14px;
+    }
+
+    .hobbies img {
+        width: 120px;
+        height: 120px;
+    }
+    .new{
+        flex-direction:row;
+    }
+    .read{
+    flex-direction: column;
+    width: 220px;
+    height: 330px;
+    margin-left: auto;
+    font-size: 17px;
+    padding: 25px;
+    }
+    .read img{
+    width: 170px;
+    height: 100px;    
+    object-fit: cover;
+    }
+    .play{
+    flex-direction: column;
+    width: 220px;
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 500px;
+    font-size: 18.5px;
+    padding: 25px;
+    }
+    .play img{
+    width: 170px;
+    height: 100px;    
+    object-fit: cover;
+    }
+    .sports{
+    width: 220px;
+    height: 330px;
+    margin-right: auto;
+    font-size: 18px;
+    padding: 25px;
+    }
+    .sports img{
+    width: 170px;
+    height: 100px;
+    margin-top: 20%;    
+    object-fit: cover;
+    }
+    .read img:hover,.play img:hover,.sports img:hover{
+    transform: scale(1.05);  
+    
+}
+.play:hover ,.sports:hover ,.read:hover{
+    transform: scale(1.009);
+}
+.navbar-studies a:hover {
+    color: rgb(105, 227, 248);
+}
+
+}
+/* ---------------- favorites ---------------- */
+
+
+.fav {
+    display: flex;
+    margin: 20px 0;
+    background-image: linear-gradient(109.6deg, rgb(105, 227, 248) 11.2%, rgba(188, 204, 251, 1) 100.6%);
+    color: #020024;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 25px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.borderf{
+    border-color: rgba(188, 204, 251, 1);
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.fav ul, .favorite-section ol {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 1.9;
+}
+
+.fav-icons {
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin: auto 0px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.fav:hover{
+    transform: scale(1.009);
+}
+.fav-icons:hover {
+    transform: scale(1.15);
+}
+
+.navbar-fav {
+    width: 750px ;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(3, 84, 100) 100%);
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-fav a {
+    color: rgb(190, 224, 240);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-fav a:hover {
+    color: rgb(105, 227, 248);
+}
+
+
+@media (max-width: 1025px) {
+    .fav-icons {
+        width: 200px;
+        height: 100px;
+    }
+    .fav{
+    margin: 20px 0;
+    font-size: 16px;
+    padding: 25px;
+    margin-top: 50px;
+    }
+    .navbar-fav a:hover {
+    color: rgb(105, 227, 248);
+}
+.fav:hover{
+    transform: scale(1.009);
+}
+.fav-icons:hover {
+    transform: scale(1.15);
+}
+
+}
+/* ------------- contact me ------------------ */
+.navbar-contact {
+    width: 750px ;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(3, 84, 100) 100%);
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-contact a {
+    color: rgb(190, 224, 240);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-contact a:hover {
+    color: rgb(105, 227, 248);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items:center;
+    font-size: 25px;
+}
+.borderc{
+    border-color: rgba(188, 204, 251, 1);
+    margin-bottom: 15px;
+}
+.input-textarea {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    border: 2px solid #020024;
+    background:rgba(190, 224, 240, 0.797);
+    border-radius: 10px;
+    width: 450px;
+    height: 120px;
+}
+.input {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 2px solid #020024;
+    background:rgba(190, 224, 240, 0.842);
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+}
+.input-select {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: 2px solid #020024;
+    background: rgb(190, 224, 240);
+    border-radius: 20px;
+    color: #020024;
+    width: 200px;
+    height: 50px;
+}
+.name h3 , .email h3{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(3, 84, 100) 100%);
+    text-align: center;
+    border: 0.5px solid #020024;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 27px;
+    color: rgb(190, 224, 240);
+}
+.mh h3{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(3, 84, 100) 100%);
+    text-align: center;
+    border: 0.5px solid #020024;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 27px;
+    color: rgb(190, 224, 240);
+}
+.purpose{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(3, 84, 100) 100%);
+    border: 0.5px solid #020024;
+    border-radius: 20px;
+}
+.purpose h3{
+    width: 480px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 27px;
+    color: rgb(190, 224, 240);
+}
+::placeholder{
+    color: #020024;
+    opacity: 50%;
+}
+
+.submit {
+    margin-top: 15px;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    font-size: 27px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(3, 84, 100) 100%);
+    color:rgb(190, 224, 240);
+    border:4px;
+    border-color: rgb(131, 193, 222);
+    border-style: double;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit:hover {
+    transform: scale(1.05);
+}
+
+/* java script  index */
+
+/* about me */
