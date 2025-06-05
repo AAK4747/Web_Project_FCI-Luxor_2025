@@ -641,7 +641,7 @@ tbody tr:hover {
 }
 
 
-@media (max-width: 1025px) {
+@media (max-width: 600px) {
     .fav-icons {
         width: 90%;
         height: auto;
