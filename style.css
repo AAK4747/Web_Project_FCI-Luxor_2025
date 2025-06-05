@@ -577,8 +577,7 @@ tbody tr:hover {
     margin-top: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 100%;
-    max-width: 1200px;
+
 }
 
 
@@ -641,7 +640,7 @@ tbody tr:hover {
 }
 
 
-@media (max-width: 1020px) {
+@media (max-width: 1025px) {
     .fav-icons {
         width: 90%;
         height: auto;
@@ -650,6 +649,8 @@ tbody tr:hover {
         font-size: 12px;
     }
     .fav{
+    width: 100%;
+    height:auto ;
     margin: 20px 0;
     font-size: 12px;
     padding: 25px;
