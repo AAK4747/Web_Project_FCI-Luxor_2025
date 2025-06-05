@@ -40,12 +40,12 @@ body {
 
 .container{
     max-width: 1100px;
-    max-height: 2300px;
+    width: 100%;
     margin: auto;
     text-align: center;
     background: #020024;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(3, 84, 100) 100%);
-    padding: 22px;
+    padding: 30px;
     border-radius: 11px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -152,6 +152,7 @@ body {
     }
 
     .intro h2 {
+
         margin: auto auto auto auto;
     }
     
@@ -252,30 +253,31 @@ body {
 }
 
 
-@media (max-width: 819px) {
+@media (max-width: 768px) {
 
     .profile-img {
         width: 150px;
         height: 150px;
     }
     .container {
-        height: 100%;
         margin: 10px;
         padding: 15px;
     }
-    .back,.goals,.why{
-        font-size: 30px;
-    }
+
     .back-li li,
 .goals-li li,.why-li li {
     margin: 17px 35px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: justify;
     justify-content: center;
     line-height: 1.8;
     list-style-type:circle;
 }
+.goals h2,.why h2{
+    font-size: 20px;
+}
 .back h2{ 
+    font-size: 20px;
     margin-top: -25px;
 }
     .navbar-about {
@@ -799,3 +801,4 @@ tbody tr:hover {
 .submit:hover {
     transform: scale(1.05);
 }
+
