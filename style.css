@@ -652,8 +652,11 @@ tbody tr:hover {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 11px;
+    font-size: 8px;
     line-height: 1.2;
+    }
+    .fav ul h3{
+    font-size: 11px;
     }
     .fav{
     width: 100%;
