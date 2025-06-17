@@ -17,7 +17,7 @@ A beautiful personal website built with **HTML** and **CSS**, designed to showca
 ├── favorites.html         # My Favorite Things
 ├── contact.html           # Contact Me page
 ├── style.css              # Main stylesheet
-├── script.js              # Optional JavaScript (for greetings or dark mode)
+├── script.js              # Optional JavaScript
 └── /images                # Folder for all site images
 ```
 
