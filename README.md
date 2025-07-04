@@ -1,13 +1,13 @@
 # Web_Task_FCI-Luxor_2025
-This is The Project of The Introduction To Web Technology Course FCI-Luxor May 2025
+This is The Task of The Introduction To Web Technology Course FCI-Luxor May 2025
 
 # 🌐 Personal Website Task
 
-A beautiful personal website built with **HTML** and **CSS**, designed to showcase my profile, studies, hobbies, and favorites. The project emphasizes styling, responsive design, and clean layout without using JavaScript frameworks.
+A beautiful personal website built with **HTML** and **CSS**, designed to showcase my profile, studies, hobbies, and favorites. The Task emphasizes styling, responsive design, and clean layout without using JavaScript frameworks.
 
 ---
 
-## 📁 Project Structure
+## 📁 Task Structure
 
 ```
 📦 personal-website/
